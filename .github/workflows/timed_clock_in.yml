@@ -1,7 +1,8 @@
 name: Timed Clock In
 on: 
+  workflow_dispatch:
   schedule:
-    - cron: '47 3,5 * * *'
+    - cron: '34 3,6 * * *'
 
 jobs:
   Clock-In:
